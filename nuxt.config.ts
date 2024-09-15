@@ -16,43 +16,30 @@ export default defineNuxtConfig({
         {
           name: "description",
           content:
-            "Personal Portfolio Website. ",
+            "Personal Portfolio Website. Hi, I am Po Yi Zhi. I'm a Front-End Web Developer based in Kuala Lumpur, Malaysia. Currently focused on developing website using Vue and React. Checkout my projects and github repositories",
         },
         { name: "format-detection", content: "telephone=no" },
-        { property: "author", content: "Saurabh Singh" },
+        { property: "author", content: "Po Yi Zhi" },
         {
           name: "keywords",
           content:
-            "Web Developer, Front End Developer, Frontend Developer, Junior Web Developer, Software Developer, Software Engineer",
+            "Web Developer, Front End Developer, Frontend Developer, Junior Web Developer, Software Developer, Software Engineer, Po Yi Zhi, Yi Zhi, eazypau, Malaysia",
         },
         // social meta tags
         {
           property: "og:site_name",
-          content: "Web Developer Portfolio | Saurabh Singh",
-        },
-        {
-          property: "og:site",
-          content: "https://www.eazypau.com/",
+          content: "Web Developer Portfolio | Po Yi Zhi",
         },
         {
           property: "og:title",
-          content: "Web Developer Portfolio | Saurabh Singh",
+          content: "Web Developer Portfolio | Po Yi Zhi",
         },
         {
           property: "og:description",
           content:
-            "Personal Portfolio Website.",
+            "Personal Portfolio Website. Hi, I am Po Yi Zhi. I'm a Front-End Web Developer based in Kuala Lumpur, Malaysia. Currently focused on developing website using Vue and React. Checkout my projects and github repositories",
         },
-        // sharing thumbmail img
-        {
-          property: "og:image",
-          content: "https://www.eazypau.com/favicon-bw.png", ///favicon-wb.png
-        },
-        // google site verification
-        {
-          name: "google-site-verification",
-          content: "CpKqeACrIS7JLwdilAnMgoDicJnoBaNmupPoq6fUtFs",
-        },
+        
       ],
       link: [{ rel: "icon", href: "/favicon-bw.png" }],
     },
