@@ -138,153 +138,41 @@ export function useConstants() {
   const projects = [
     {
       isReverse: true,
-      title: "Personal Blog",
+      title: "My Portfolio",
       titleColor: "text-white",
       filterColor: "bg-slate-900 bg-opacity-60",
-      imageUrl: "/project-ss/blog-page.png",
+      imageUrl: "/project-ss/Portfolio.png",
       description:
-        "A personal blog using NextJS and Notion API. It has code syntax highlight, text to speech and image viewer.",
+        "A sleek, modern portfolio showcasing my expertise in web development, design, and user-centric solutions.",
       techStack: [
-        "NextJS",
-        "TS",
+        "NuxtJS",
+        "Vuejs",
         "TailwindCSS",
-        "@notionhq/client",
-        "highlight.js",
-        "fslightbox-react",
+        "Firebase"
       ],
       isUrl: true,
-      urlLink: "https://blog.eazypau.com/",
-      githubLink: "https://github.com/eazypau/my-blog",
+      urlLink: "https://my-portfolio-7e81f.web.app/",
+      githubLink: "https://github.com/saurabhsingh0212/Portfolio",
+      // githubLink: "https://github.com/eazypau/my-blog",
     },
     {
       isReverse: true,
-      title: "Order Management App",
+      title: "Products Showcase Website",
       titleColor: "text-white",
       filterColor: "bg-slate-900 bg-opacity-60",
-      imageUrl: "/project-ss/oms-order-page.png",
+      imageUrl: "/project-ss/Product.png",
       description:
-        "An order creation and management web app. It can be use to manage orders and prodcuts.",
-      techStack: [
-        "NextJS",
-        "TS",
-        "TailwindCSS",
-        "daisyUI",
-        "Firebase",
-        "@tanstack/react-query",
-        "@tanstack/react-table",
-        "MomentJs",
-        "formik",
-        "lodash",
-        "yup",
-      ],
-      isUrl: true,
-      urlLink: "https://order-management-drab.vercel.app/",
-      // urlLink: "https://order-creation-web-app.vercel.app/en",
-      // githubLink: "https://github.com/eazypau/order-creation-web-app",
-    },
-    {
-      isReverse: false,
-      title: "Eazy Chat App",
-      titleColor: "text-white",
-      filterColor: "bg-slate-900 bg-opacity-60",
-      imageUrl: "/project-ss/chatapp-ss.webp",
-      description:
-        "A scalable real-time chat app designed to send and receive messages from users.",
-      techStack: [
-        "Vue",
-        "TS",
-        "Vite",
-        "TailwindCSS",
-        "Firebase",
-        "Pinia",
-        "Vue-router",
-      ],
-      isUrl: true,
-      urlLink: "https://eazy-chat-app.netlify.app/login",
-      githubLink: "https://github.com/eazypau/chatApp",
-    },
-    {
-      isReverse: true,
-      title: "Spotify Clone",
-      titleColor: "text-white",
-      filterColor: "bg-slate-500 mix-blend-hard-light",
-      imageUrl: "/project-ss/spotify-ss.webp",
-      description:
-        "A Spotify clone web app. Built to view your saved and created playlist. It also can control your Spotify app playback state.",
-      techStack: [
-        "Vue",
-        "Vite",
-        "TailwindCSS",
-        "Vuex",
-        "Vue-router",
-        "Spotify Web API",
-      ],
-      isUrl: false,
-      githubLink: "https://github.com/eazypau/spotify-clone-web",
-    },
-    {
-      isReverse: false,
-      title: "Shopping Cart",
-      titleColor: "text-white",
-      filterColor: "bg-slate-700 bg-opacity-60",
-      imageUrl: "/project-ss/shopping-cart-ss.webp",
-      description:
-        "A static E-Commerce website to demonstrate the flow of a user purchase",
-      techStack: ["React", "SASS", "React-router"],
-      isUrl: true,
-      urlLink: "https://eazypau.github.io/shopping-cart-react/#/",
-      githubLink: "https://github.com/eazypau/shopping-cart-react",
-    },
-    {
-      isReverse: true,
-      title: "Kanban Board",
-      titleColor: "text-white",
-      filterColor: "bg-slate-800 bg-opacity-60",
-      imageUrl: "/project-ss/kanban-board.webp",
-      description: "A Kanban board to store the user's task list.",
+        "An products and services showcase web app. It can be also used to get inquiries and share other details.",
       techStack: [
         "React",
-        "SASS",
-        "TailwindCSS",
-        "Local Storage",
-        "React-beautiful-dnd",
-      ],
-      isUrl: true,
-      urlLink: "https://eazypau.github.io/kanban-board-react/",
-      githubLink: "https://github.com/eazypau/kanban-board-react",
-    },
-    {
-      isReverse: false,
-      title: "Saloon Booking Web",
-      titleColor: "text-white",
-      filterColor: "bg-slate-900 bg-opacity-60",
-      imageUrl: "/project-ss/saloonbooking-ss.webp",
-      description:
-        "A door-to-door saloon appointment booking website allows users to book their appointment at any time.",
-      techStack: [
-        "Vue",
-        "TS",
-        "Vite",
         "TailwindCSS",
         "Firebase",
-        "Vuex",
-        "Vue-router",
+        "Google APIs",
+        "Django for CMS",
       ],
       isUrl: true,
-      urlLink: "https://saloonbooking-95d49.web.app/",
-      githubLink: "https://github.com/eazypau/saloonbooking",
-    },
-    {
-      isReverse: true,
-      title: "Tic Tac Toe",
-      titleColor: "text-white",
-      filterColor: "bg-zinc-700 mix-blend-hard-light",
-      imageUrl: "/project-ss/tictactoe-ss.webp",
-      description: "A game of tic tac toe in HTML, CSS, and JavaScript.",
-      techStack: ["HTML", "CSS", "JavaScript"],
-      isUrl: true,
-      urlLink: "https://eazypau.github.io/tictactoe/",
-      githubLink: "https://github.com/eazypau/tictactoe",
+      urlLink: "https://productshowcase.web.app/",
+      githubLink: "https://github.com/saurabhsingh0212/BlisterPacking",
     },
   ];
   const workingProjects = [
@@ -550,20 +438,6 @@ export function useConstants() {
         maxWidth: "max-w-[70%] md:max-w-[60%] 3xl:max-w-[55%]",
       },
       imageShowcase: [
-        // {
-        //   title: "Home Page Top Part",
-        //   src: "/work/cakerush-main.png",
-        //   alt: "Home Page Top Part",
-        //   width: "1918",
-        //   height: "2368",
-        // },
-        // {
-        //   title: "Home Page MultiTab Section",
-        //   src: "/work/cakerush-tabs.png",
-        //   alt: "Home Page MultiTab Section",
-        //   width: "1898",
-        //   height: "942",
-        // },
         {
           title: "Home Page",
           src: "/work/cakerush-homepage-revamp.png",
@@ -655,84 +529,7 @@ export function useConstants() {
     },
   ];
 
-  // const timeline = [
-  //   {
-  //     date: "July 2023",
-  //     title: "Started @ JagaApp",
-  //     description: "Joined the JagaApp team",
-  //     // icon: "",
-  //     link: {
-  //       text: "Visit JagaApp",
-  //       url: "https://jagasolution.com/jagaapp/",
-  //     },
-  //   },
-  //   {
-  //     date: "May 2022",
-  //     title: "Started @ Limitless Technologies",
-  //     description: "Joined the Limitless Technologies (LTG) team",
-  //     // icon: "",
-  //     link: {
-  //       text: "Visit LTG",
-  //       url: "https://limitless.my/",
-  //     },
-  //   },
-  //   {
-  //     date: "October 2021",
-  //     title: "First Developer Role",
-  //     description:
-  //       "Joined The Hacker Collective (THC) Team as Frontend Web Developer",
-  //     // icon: "",
-  //     link: {
-  //       text: "Visit THC",
-  //       url: "https://hackercollective.co/",
-  //     },
-  //   },
-  //   {
-  //     date: "April 2021",
-  //     title: "Self Taught Journey Begins",
-  //     description:
-  //       "Started my journey in self learning programming (web development)",
-  //     // icon: "",
-  //   },
-  //   {
-  //     date: "August 2019",
-  //     title: "First Mechanical Engineer Role",
-  //     description:
-  //       "Began my job as a Mechanical Engineer in M&E Consultancy at Durianê Professional",
-  //     // icon: "",
-  //     link: {
-  //       text: "Visit Durianê Professional",
-  //       url: "https://www.duriane.com/",
-  //     },
-  //   },
-  //   {
-  //     date: "May 2019",
-  //     title: "Graduated University",
-  //     description:
-  //       "Completed my Bachelor's Degree in Mechanical Engineering at Multimedia University (MMU)",
-  //     // icon: "",
-  //   },
-  //   {
-  //     date: "March 2018",
-  //     title: "Internship",
-  //     description:
-  //       "Began an internship as assistent engineer at Protech Builders",
-  //     // icon: "",
-  //   },
-  //   {
-  //     date: "June 2015",
-  //     title: "Start University",
-  //     description:
-  //       "Began my study in Mechanical Engineering at Multimedia University (MMU)",
-  //     // icon: "",
-  //     link: {
-  //       text: "Visit MMU",
-  //       url: "https://www.mmu.edu.my/",
-  //     },
-  //   },
-  // ];
-
-  // new timeline
+ 
   const timeline = [
     {
       logo: "",
