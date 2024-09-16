@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2022 Po Yi Zhi
+Copyright (c) 2022 Saurabh Singh
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

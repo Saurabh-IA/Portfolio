@@ -5,22 +5,22 @@ const jsonLd = {
   name: "Web Developer Portfolio | Saurabh Singh",
   author: {
     "@type": "Person",
-    "@id": "#poyizhi",
+    "@id": "#saurabh",
   },
-  url: "https://www.eazypau.com/",
+  url: "",
   description:
-    "Personal Portfolio Website. Hi, I am Saurabh Singh. I'm a Front-End Web Developer based in Kuala Lumpur, Malaysia. Currently focused on developing website using Vue and React. Checkout my projects and github repositories",
+    "Personal Portfolio Website. Hi, I am Saurabh Singh. ",
   keywords:
-    "Web Developer, Front End Developer, Frontend Developer, Junior Web Developer, Software Developer, Software Engineer, Saurabh Singh, Yi Zhi, eazypau, Malaysia",
-  image: "https://www.eazypau.com/profile-pics/profile.webp",
+    "Web Developer, Front End Developer, Frontend Developer, Junior Web Developer, Software Developer, Software Engineer, Saurabh Singh",
+  image: "",
 };
 const personJson = {
   "@context": "https://schema.org/",
   "@type": "Person",
-  "@id": "#poyizhi",
+  "@id": "#saurabh",
   name: "Saurabh Singh",
-  email: "poyizhi@gmail.com",
-  url: "https://www.eazypau.com/",
+  email: "saurabhsingh.iitmandi@gmail.com",
+  url: "https://my-portfolio-7e81f.web.app/",
 };
 useHead({
   script: [

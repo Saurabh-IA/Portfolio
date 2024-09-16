@@ -2,8 +2,8 @@
   "private": true,
   "name": "eazypau-porfolio",
   "author": {
-    "name": "Po Yi Zhi",
-    "url": "https://eazypau.com/"
+    "name": "Saurabh Singh",
+    "url": "https://my-portfolio-7e81f.web.app/"
   },
   "scripts": {
     "dev": "nuxi dev",
