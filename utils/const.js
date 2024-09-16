@@ -23,7 +23,7 @@ export function useConstants() {
     {
       id: 6,
       name: "Blog",
-      href: "https://blog.eazypau.com/",
+      href: "/blog",
     },
   ];
 
@@ -560,6 +560,95 @@ export function useConstants() {
     },
   ];
 
+
+  const blogPosts = [
+    {
+      id: 1,
+      title: "The Future of Web Development",
+      date: "2024-09-16",
+      content: `
+        The landscape of web development is continuously evolving, and the future promises even greater innovations that will redefine how we build and interact with digital experiences. The emergence of cutting-edge technologies like WebAssembly, AI integration, and low-code platforms is giving developers an unprecedented array of tools to create more immersive, interactive, and scalable solutions.
+
+WebAssembly is one of the most transformative technologies on the horizon. By allowing code to run at near-native speeds in the browser, WebAssembly is opening up possibilities for complex applications like video editing, gaming, and even machine learning directly in the browser. This shifts the paradigm from traditional web applications to a future where almost anything can be done without leaving the browser.
+
+In parallel, AI integration is making its way into web development in various forms. From AI-driven user interfaces that adapt to individual users to automated backend operations, AI is not only improving the user experience but also optimizing the development process. Imagine websites that can predict user behavior, adapt in real-time, and offer hyper-personalized experiences — all powered by artificial intelligence.
+
+Low-code platforms are another game-changer, enabling non-developers to build sophisticated applications with minimal coding. These platforms streamline the development process, reducing the time and resources needed to bring a project to life. While they won’t replace traditional coding entirely, they democratize development, allowing more people to participate in the creation of digital products.
+
+Overall, the future of web development is exciting, with new technologies continuously breaking down barriers and expanding possibilities. As these innovations mature, developers will be empowered to build more powerful, efficient, and interactive web experiences that push the boundaries of what's possible.
+      `,
+    },
+    {
+      id: 2,
+      title: "Why Nuxt 3 is Perfect for SEO",
+      date: "2024-08-25",
+      content: `
+        Search engine optimization (SEO) has always been a critical factor in the success of websites. With Nuxt 3, developers have a powerful framework at their disposal to improve SEO without much effort. Its built-in server-side rendering (SSR) and static site generation (SSG) make it an ideal choice for creating highly optimized, SEO-friendly websites.
+
+One of the key advantages of Nuxt 3 is its ability to render pages on the server before sending them to the browser. This process, known as server-side rendering, ensures that search engines can easily crawl and index your site's content. Many client-side rendered frameworks, like traditional Vue.js or React.js applications, rely heavily on JavaScript to display content, which can pose challenges for search engines. With SSR in Nuxt 3, the full content of each page is immediately available, allowing for better indexing and faster page load times, both of which are critical for SEO.
+
+Another feature that makes Nuxt 3 stand out for SEO is automatic static optimization. When you use static site generation, your website becomes faster and more secure, which not only improves the user experience but also boosts SEO rankings. Static sites are inherently more secure because they don’t rely on databases or dynamic code execution, reducing the risk of hacking. Additionally, search engines reward fast-loading pages, and static sites typically load significantly faster than their dynamic counterparts.
+
+Nuxt 3 also offers enhanced support for meta tags, structured data, and other essential SEO elements. By making it easy to define these attributes on a per-page basis, Nuxt helps developers ensure that each page is optimized for search engines.
+
+In conclusion, Nuxt 3 combines the best of modern web development with a focus on performance and SEO, making it a top choice for developers looking to create highly optimized, search-engine-friendly websites.
+
+
+      `,
+    },
+    {
+      id: 3,
+      title: "The Rise of Static Site Generators",
+      date: "2024-07-10",
+      content: `
+        Static site generators (SSGs) have been gaining significant traction in recent years, offering an elegant solution for creating fast, secure, and scalable websites. Tools like Nuxt and Next.js have emerged as leading options for developers, providing simplicity and performance that traditional content management systems (CMSes) often struggle to match.
+
+One of the primary reasons for the rise of static site generators is their incredible speed. Unlike dynamic websites, which require server-side processing for each user request, static sites are pre-generated during the build process. This means that when a user visits the site, all they need to do is download pre-rendered HTML, CSS, and JavaScript files. As a result, static sites load incredibly fast, which not only improves user experience but also has a positive impact on SEO rankings.
+
+Security is another compelling advantage of SSGs. Because static sites don’t rely on databases or server-side code, the attack surface is significantly reduced. Traditional CMS platforms like WordPress often require constant updates and security patches to protect against vulnerabilities, whereas static sites are inherently safer since there's no dynamic code execution on the server.
+
+Static site generators also offer a level of simplicity and efficiency that makes them ideal for certain types of websites, such as blogs, portfolios, and e-commerce sites. For example, developers can write content in Markdown or another simple format, and the SSG will automatically generate the necessary HTML. This reduces the complexity of development while still providing flexibility in design and functionality.
+
+Furthermore, many static site generators integrate seamlessly with headless CMS platforms, allowing developers to decouple the content management system from the frontend. This provides a powerful combination of flexibility and performance, enabling content editors to easily update content while developers focus on building highly optimized, fast-loading websites.
+
+In summary, the rise of static site generators is a testament to their ability to provide performance, security, and simplicity in web development. As more developers and businesses seek out faster and more secure solutions, SSGs like Nuxt and Next.js are likely to play an even larger role in the future of web development.
+      `,
+    },
+    {
+      id: 4,
+      title: "Harnessing the Power of WebAssembly for Next-Gen Web Apps",
+      date: "2024-09-16",
+      content: `
+        WebAssembly (Wasm) has emerged as a groundbreaking technology poised to revolutionize the web development landscape. By allowing code written in languages like C, C++, and Rust to run natively in the browser at near-native speeds, WebAssembly has opened up a new realm of possibilities for building high-performance web applications that were previously thought to be impossible.
+
+One of the key advantages of WebAssembly is its ability to execute complex tasks that were traditionally limited to desktop applications. For instance, video editing, 3D modeling, and even real-time gaming can now be done directly within the browser without sacrificing performance. This not only enhances user experience but also allows developers to bring a wider array of services and applications online without needing to rely on powerful client hardware.
+
+WebAssembly also plays a crucial role in improving the performance of existing JavaScript applications. Instead of rewriting entire applications in WebAssembly, developers can strategically use it to handle performance-intensive tasks, such as data processing, cryptography, or complex algorithms. This hybrid approach leverages both the ease of JavaScript and the power of WebAssembly, resulting in faster and more efficient web apps.
+
+Another noteworthy aspect is WebAssembly's platform-agnostic nature. It runs seamlessly across different devices and operating systems, making it ideal for cross-platform development. Whether users are on desktops, laptops, or mobile devices, they can experience the same high performance and responsiveness.
+
+As WebAssembly continues to mature, we can expect to see more web applications taking advantage of this technology. Developers now have the tools to push the boundaries of what web apps can do, creating faster, more interactive, and resource-intensive applications that deliver desktop-level performance right in the browser.
+      `,
+    },
+    {
+      id: 5,
+      title: "Headless CMS: The Future of Content Management",
+      date: "2024-09-16",
+      content: `
+        The traditional content management system (CMS) model is rapidly evolving, and headless CMS platforms are leading the charge. Unlike traditional CMSes, which tightly couple the backend (where content is created and managed) with the frontend (how that content is displayed), a headless CMS decouples the two, providing unparalleled flexibility and scalability in content delivery.
+
+At the core of a headless CMS is an API-first approach. Instead of rendering content directly to HTML or templates, headless CMS platforms expose content via APIs that can be consumed by any frontend framework or device. This means developers are free to choose whatever frontend technology they prefer, whether it’s a modern framework like Nuxt.js or React, or even mobile applications and IoT devices.
+
+One of the key benefits of headless CMS is the ability to serve content across multiple platforms. In today’s multi-device world, content needs to be delivered to websites, mobile apps, smart devices, and more. A headless CMS allows businesses to centralize their content and serve it dynamically to any platform via APIs, ensuring consistency across all digital touchpoints.
+
+Additionally, a headless CMS excels in performance and scalability. By offloading content delivery to APIs, the frontend can focus entirely on performance and optimization, while the CMS backend can scale independently based on content needs. This separation allows businesses to optimize each part of their architecture for its specific purpose, resulting in faster, more reliable, and easily maintainable websites and applications.
+
+Moreover, headless CMS platforms are well-suited for modern web development workflows. They integrate smoothly with static site generators like Nuxt.js and Next.js, making it easy to create blazing-fast websites that leverage the power of static rendering while still pulling dynamic content from the headless CMS.
+
+As content delivery becomes more complex and multi-faceted, the future of content management lies in headless CMS solutions. They provide the flexibility, scalability, and performance needed to thrive in an increasingly connected digital world.`,
+    },
+  ];
+
   return {
     navigation,
     hobbies,
@@ -567,5 +656,6 @@ export function useConstants() {
     projects,
     workingProjects,
     timeline,
+    blogPosts,
   };
 }
