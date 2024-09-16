@@ -117,12 +117,12 @@ export function useConstants() {
     {
       title: "Adventuring",
       text: "A great way to heal my soul",
-      classBg: "bg-tea",
+      classBg: "bg-adventure",
     },
     {
       title: "Gaming",
       text: "Love exploring the virtual works and great stories. Current favs : Ghost of Tsushima, Black myth Wukong",
-      classBg: "bg-journaling",
+      classBg: "bg-gaming",
     },
     {
       title: "Learning new technologies/framework",
@@ -752,7 +752,7 @@ export function useConstants() {
     {
       logo: "/work/ltg/ltg-logo.jpeg",
       logoBorderColor: "#7303C0",
-      companyName: "Limit Technology Group",
+      companyName: "Eclerx Services Pvt Ltd",
       duration: "June 2021 - Feb 2022",
       jobScope: [
         "Developed a Transaction Verification Application using React and Node.js, ensuring rigorous cash flow examination.",

@@ -1,16 +1,5 @@
 <template>
   <header class="headerHeight">
-    <!-- <div>
-      <img
-        src="/wide-laptop-gradient-bg.webp"
-        sizes="(max-width: 768px) 50vw, (max-width: 1024px) 80vw, (max-width: 1439px) 100vw"
-        srcset="
-          /wide-laptop-gradient-bg-min.webp  768w,
-          /wide-laptop-gradient-bg.webp     1024w
-        "
-        alt="laptop with black background"
-      />
-    </div> -->
     <TransitionGroup name="list" tag="div" class="header-bg">
       <div v-for="rectang in columns" :key="rectang" :style="rectang"></div>
       <img
@@ -23,15 +12,15 @@
     </TransitionGroup>
     <div class="content" :class="showContent ? 'opacity-100' : 'opacity-0'">
       <h1 class="leading-3">
-        <span class="text-4xl md:text-5xl font-semibold">{{
+        <span class="text-3xl md:text-3xl font-semibold">{{
           introObj.lineOne
         }}</span>
         <br />
-        <span class="text-2xl md:text-3xl font-medium">{{
+        <span class="text-2xl md:text-2xl font-medium">{{
           introObj.lineTwo
         }}</span>
         <br />
-        <span class="text-xl md:text-2xl">{{ introObj.lineThree }}</span>
+        <span class="text-xl md:text-xl">{{ introObj.lineThree }}</span>
       </h1>
     </div>
   </header>
@@ -43,7 +32,7 @@ const counter = ref(0);
 const numOfColumns = ref(4);
 const currentLeftPosition = ref(20);
 const width = 2;
-const typeSpeed = 50;
+const typeSpeed = 100;
 const columnSpeed = 100;
 const rectangDelay = ref(1300);
 const typeWriterDelay = ref(2800);
@@ -63,7 +52,7 @@ const introObj = ref({
 });
 const intro = [
   "Saurabh Singh",
-  "Software Developer at Internet Academy",
+  "Software Developer",
   "I specialize in building user-centric web applications, content management tools, and solutions that address real-world challenges.",
 ];
 
@@ -81,15 +70,19 @@ const addColumns = () => {
 const typeWriter = () => {
   const currentLine =
     j.value === 0 ? "lineOne" : j.value === 1 ? "lineTwo" : "lineThree";
-  if (j.value < 3) {
+  
+  if (j.value < 2) { // Only apply typing animation for the first two lines
     if (i.value < intro[j.value].length) {
       introObj.value[currentLine] += intro[j.value][i.value];
       i.value++;
       setTimeout(typeWriter, typeSpeed);
     } else {
-      if (j.value < 2) i.value = 0;
+      if (j.value < 1) i.value = 0; // Reset for the next line
       j.value++;
-      if (j.value < 3) setTimeout(typeWriter, typeSpeed);
+      if (j.value < 2) setTimeout(typeWriter, typeSpeed);
+      else { // Skip typing for the third line, set it immediately
+        introObj.value.lineThree = intro[2];
+      }
     }
   }
 };
