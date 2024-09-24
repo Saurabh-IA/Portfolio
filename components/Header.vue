@@ -1,7 +1,6 @@
 <template>
   <header class="headerHeight">
     <TransitionGroup name="list" tag="div" class="header-bg">
-      <div v-for="rectang in columns" :key="rectang" :style="rectang"></div>
       <img
         :class="showBgImg ? 'opacity-100' : 'opacity-0'"
         src="/red-blue.jpg"

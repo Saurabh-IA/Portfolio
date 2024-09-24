@@ -8,3 +8,4 @@ nuxt.d.ts
 dist
 .firebaserc
 firebase.json
+*.DS_Store

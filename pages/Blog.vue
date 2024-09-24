@@ -22,6 +22,7 @@ useHead({
   <NuxtLayout name="default">
     <div class="bg-white dark:bg-[#121212]">
       <div class="max-w-4xl mx-auto px-4">
+        <br>
         <h1 class="text-4xl font-bold mb-8 text-center">Blog Articles</h1>
         <CardsBlogCard
             v-for="post in blogPosts"
